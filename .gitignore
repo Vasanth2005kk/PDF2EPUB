@@ -218,3 +218,8 @@ __marimo__/
 
 # Streamlit
 .streamlit/secrets.toml
+
+# PDF2EPUB runtime data (uploaded and generated user files)
+storage/*
+!storage/.gitkeep
+tools/
